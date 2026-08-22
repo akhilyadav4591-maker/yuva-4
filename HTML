@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Accessible and performance optimized interactive web experience">
+
+    <meta name="theme-color" content="#172554">
+
+    <title>Accessible Web Experience</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
+
+    <header class="header">
+
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="#home"
+               class="logo"
+               aria-label="WebDesign home">
+                WebDesign
+            </a>
+
+            <button
+                id="menuBtn"
+                class="menu-btn"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navLinks">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#features">
+                        Features
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#accessibility">
+                        Accessibility
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main id="main-content">
+
+        <section
+            class="hero"
+            id="home"
+            aria-labelledby="hero-title">
+
+            <div class="hero-content">
+
+                <p class="subtitle">
+                    WEEK 4 FRONTEND PROJECT
+                </p>
+
+                <h1 id="hero-title">
+                    Performance and Accessibility
+                </h1>
+
+                <p>
+                    A responsive website designed to provide a fast,
+                    accessible and user-friendly experience across devices.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a class="btn" href="#features">
+                        Explore Features
+                    </a>
+
+                    <a class="btn outline-btn"
+                       href="#accessibility">
+                        Accessibility
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section
+            class="about"
+            id="about"
+            aria-labelledby="about-title">
+
+            <div class="container about-content">
+
+                <div class="about-text">
+
+                    <p class="section-label">
+                        ABOUT PROJECT
+                    </p>
+
+                    <h2 id="about-title">
+                        Fast, Semantic and Accessible
+                    </h2>
+
+                    <p>
+                        This project focuses on improving webpage
+                        performance while making the interface easier
+                        to use for people with different abilities.
+                    </p>
+
+                    <p>
+                        Semantic HTML, optimized images, accessible forms,
+                        keyboard navigation, responsive layouts and clear
+                        color contrast are used throughout the website.
+                    </p>
+
+                </div>
+
+                <div class="about-image">
+
+                    <img
+                        src="images/responsive-design.jpg"
+                        alt="Responsive website displayed on multiple devices"
+                        width="800"
+                        height="500"
+                        loading="lazy"
+                        decoding="async">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section
+            class="features"
+            id="features"
+            aria-labelledby="features-title">
+
+            <div class="container">
+
+                <p class="section-label center">
+                    PERFORMANCE FEATURES
+                </p>
+
+                <h2 id="features-title">
+                    Website Improvements
+                </h2>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+
+                        <div
+                            class="feature-icon"
+                            aria-hidden="true">
+                            ⚡
+                        </div>
+
+                        <h3>
+                            Fast Loading
+                        </h3>
+
+                        <p>
+                            Lightweight HTML and CSS help reduce
+                            unnecessary page processing and improve
+                            loading performance.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <div
+                            class="feature-icon"
+                            aria-hidden="true">
+                            ♿
+                        </div>
+
+                        <h3>
+                            Accessibility
+                        </h3>
+
+                        <p>
+                            Semantic elements, labels, keyboard support
+                            and ARIA attributes improve accessibility.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <div
+                            class="feature-icon"
+                            aria-hidden="true">
+                            📱
+                        </div>
+
+                        <h3>
+                            Responsive Design
+                        </h3>
+
+                        <p>
+                            Flexible layouts allow the webpage to adapt
+                            to desktops, tablets and mobile devices.
+                        </p>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <div
+                            class="feature-icon"
+                            aria-hidden="true">
+                            🔍
+                        </div>
+
+                        <h3>
+                            SEO Friendly
+                        </h3>
+
+                        <p>
+                            Semantic structure, descriptive metadata and
+                            meaningful headings improve discoverability.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section
+            class="accessibility"
+            id="accessibility"
+            aria-labelledby="accessibility-title">
+
+            <div class="container">
+
+                <p class="section-label center">
+                    ACCESSIBILITY
+                </p>
+
+                <h2 id="accessibility-title">
+                    Accessibility Best Practices
+                </h2>
+
+                <div class="accessibility-grid">
+
+                    <article>
+
+                        <h3>
+                            Keyboard Navigation
+                        </h3>
+
+                        <p>
+                            Interactive elements can be accessed using
+                            the keyboard without depending only on a mouse.
+                        </p>
+
+                    </article>
+
+                    <article>
+
+                        <h3>
+                            Screen Reader Support
+                        </h3>
+
+                        <p>
+                            Semantic HTML, meaningful headings and ARIA
+                            attributes provide useful information to
+                            screen readers.
+                        </p>
+
+                    </article>
+
+                    <article>
+
+                        <h3>
+                            Readable Content
+                        </h3>
+
+                        <p>
+                            Clear typography, spacing and sufficient
+                            color contrast make the content easier to read.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section
+            class="contact"
+            id="contact"
+            aria-labelledby="contact-title">
+
+            <div class="container">
+
+                <p class="section-label center">
+                    CONTACT
+                </p>
+
+                <h2 id="contact-title">
+                    Send a Message
+                </h2>
+
+                <p class="contact-description">
+                    All form fields have accessible labels and
+                    clear instructions.
+                </p>
+
+                <form
+                    class="contact-form"
+                    action="#"
+                    method="post">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            placeholder="Enter your name"
+                            required
+                            aria-required="true">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            placeholder="Enter your email"
+                            required
+                            aria-required="true">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Enter your message"
+                            required
+                            aria-required="true"></textarea>
+
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="submit-btn">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Accessible Web Experience |
+            Frontend Developer Internship
+        </p>
+
+    </footer>
+
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
